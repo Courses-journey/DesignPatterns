@@ -79,12 +79,12 @@ class Db {
   Db._();
 
   /// 02 create static instance of the class
-  static Db? _instance;
+  static late Db _instance;
 
   /// 03
   factory Db() {
-    _instance ??= Db._();
-    return _instance!;
+    _instance = Db._();
+    return _instance;
   }
 }
 ```
