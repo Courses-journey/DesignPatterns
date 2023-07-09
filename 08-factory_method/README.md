@@ -4,7 +4,7 @@
 
 ### Definition
 
-Creation design pattern used to separate creation logic of specific instances of the class that belong to same Type or same base class which as a developer don't know what would be its implementation but the `client` developer who would use my package knows
+Creational design pattern used to separate creation logic of specific instances of the class that belong to same Type or same base class which as a developer don't know what would be its implementation but the `client` developer who would use my package knows
 
 ### Use Cases
 

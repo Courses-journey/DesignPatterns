@@ -16,7 +16,7 @@ Design Patterns Passionate Coders | محمد المهدي
 
 ### Definition
 
-- Creation design pattern ensure that during the life of our application only one instance of the class will be created
+- Creational design pattern ensure that during the life of our application only one instance of the class will be created
 - The constructor will be called once
 
 ### Use Cases
@@ -44,7 +44,7 @@ Design Patterns Passionate Coders | محمد المهدي
 
 What if not?
 
-- May have racing and many thread call the instance and the last one will be the value
+- May have tracing and many thread call the instance and the last one will be the value
 
 ```dart
 class Db {
@@ -172,7 +172,7 @@ Behavioral pattern used to define how something will be executed based on curren
 
 ### Definition
 
-Creation design pattern used to separate creation logic of any instances of the class that belong to same Type or same base class to avoid ripple effect
+Creational design pattern used to separate creation logic of any instances of the class that belong to same Type or same base class to avoid ripple effect
 
 - Applies OPP DRY "Don't Repeat Yourself"
 - Applies OPP Encapsulate What varies
@@ -234,7 +234,7 @@ Behavioral design pattern used to specify the orders of operations without need 
 
 ### Definition
 
-Creation design pattern used to separate creation logic of specific instances of the class that belong to same Type or same base class which as a developer don't know what would be its implementation but the `client` developer who would use my package knows
+Creational design pattern used to separate creation logic of specific instances of the class that belong to same Type or same base class which as a developer don't know what would be its implementation but the `client` developer who would use my package knows
 
 ### Use Cases
 

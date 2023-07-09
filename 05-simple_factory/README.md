@@ -4,7 +4,7 @@
 
 ### Definition
 
-Creation design pattern used to separate creation logic of any instances of the class that belong to same Type or same base class to avoid ripple effect
+Creational design pattern used to separate creation logic of any instances of the class that belong to same Type or same base class to avoid ripple effect
 
 - Applies OPP DRY "Don't Repeat Yourself"
 - Applies OPP Encapsulate What varies

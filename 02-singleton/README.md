@@ -4,7 +4,7 @@
 
 ### Definition
 
-- Creation design pattern ensure that during the life of our application only one instance of the class will be created
+- Creational design pattern ensure that during the life of our application only one instance of the class will be created
 - The constructor will be called once
 
 ### Use Cases
